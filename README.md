@@ -94,7 +94,8 @@
 
 ### 1. 📦 Separación de Capas
 
-- Modularización entre componentes, contenedores, ruteos y proveedores.  
+- Modularización entre componentes, contenedores, ruteos y proveedores.
+- Separación de responsabilidades.
 - Lazy loading y suspense para optimizar carga inicial.
 
 ### 2. 🧠 TypeScript (OPCIONAL)
