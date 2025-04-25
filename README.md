@@ -178,10 +178,10 @@ feat(dashboard): consume e implementa datos del servicio
 
 ## 🧹 Estándares de Código
 
-1. [📁 Estructura del Proyecto](#-estructura-del-proyecto)
-2. [⚙️ Decisiones Técnicas](#-decisiones-técnicas)
-3. [🌿 Git Flow](#-git-flow)
-4. [📦 Conventional Commits](#-conventional-commits)
-5. [🧹 Estándares de Código](#-estándares-de-código)
+- 📁 Carpetas: `kebab-case` → `/processed-batches`  
+- 📄 Componentes: `PascalCase` → `ModalConfirm.tsx`  
+- 🪝 Hooks/funciones: `camelCase` → `useResponsive.ts`  
+- 🌐 Rutas: `kebab-case` → `/user-profile`  
+- 🔒 Constantes: `SCREAMING_SNAKE_CASE` → `API_URL`
 
 ---
