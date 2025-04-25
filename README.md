@@ -8,7 +8,6 @@
 2. [⚙️ Decisiones Técnicas](#decisiones-técnicas)
 3. [🌿 Git Flow](#git-flow)
 4. [📦 Conventional Commits](#conventional-commits)
-5. [🧹 Estándares de Código](#estándares-de-código)
 
 ---
 
@@ -80,6 +79,14 @@
 ├── 📄 tsconfig.app.json
 └── 📄 tsconfig.json
 ```
+
+## 🧹 Nomenclaturas
+
+- 📁 Carpetas: `kebab-case` → `/processed-batches`  
+- 📄 Componentes: `PascalCase` → `ModalConfirm.tsx`  
+- 🪝 Hooks/funciones: `camelCase` → `useResponsive.ts`  
+- 🌐 Rutas: `kebab-case` → `/user-profile`  
+- 🔒 Constantes: `SCREAMING_SNAKE_CASE` → `API_URL`
 
 ---
 
@@ -173,15 +180,5 @@ feat(dashboard): consume e implementa datos del servicio
 > `scope`: módulo afectado (ej. `dashboard`, `auth`)
 
 - https://www.conventionalcommits.org/en/v1.0.0/
-
----
-
-## 🧹 Estándares de Código
-
-- 📁 Carpetas: `kebab-case` → `/processed-batches`  
-- 📄 Componentes: `PascalCase` → `ModalConfirm.tsx`  
-- 🪝 Hooks/funciones: `camelCase` → `useResponsive.ts`  
-- 🌐 Rutas: `kebab-case` → `/user-profile`  
-- 🔒 Constantes: `SCREAMING_SNAKE_CASE` → `API_URL`
 
 ---
