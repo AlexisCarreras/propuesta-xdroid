@@ -1,4 +1,4 @@
-# 🐾 **Proyecto XDroid**
+# **Proyecto XDroid**
 
 ---
 
@@ -90,7 +90,7 @@
 - Modularización entre componentes, contenedores, ruteos y proveedores.  
 - Lazy loading y suspense para optimizar carga inicial.
 
-### 2. 🧠 TypeScript(OPCIONAL)
+### 2. 🧠 TypeScript (OPCIONAL)
 
 - Todo el código podría estar tipado con `interface`, `type`, `enum`, dando más claridad y facilitando el mantenimiento.
 
@@ -106,7 +106,7 @@
 
 - Para tener un formato estándar del código, evitaría conflictos a la hora de mergear. Herramienta de Linteo para configurar un orden (junto a Prettier) en todos los archivos. Orden de importaciones, tabulaciones, etc. Además, al ejecutar nos muestra errores o advertencias a corregir, para poder dejar el código 100% limpio..
 
-### 6. ✅ Zod (opcional)
+### 6. ✅ Zod (OPCIONAL)
 
 - Validación de formularios con esquemas tipados.
 
@@ -178,10 +178,10 @@ feat(dashboard): consume e implementa datos del servicio
 
 ## 🧹 Estándares de Código
 
-- 📁 Carpetas: `kebab-case` → `/processed-batches`  
-- 📄 Componentes: `PascalCase` → `ModalConfirm.tsx`  
-- 🪝 Hooks/funciones: `camelCase` → `useResponsive.ts`  
-- 🌐 Rutas: `kebab-case` → `/user-profile`  
-- 🔒 Constantes: `SCREAMING_SNAKE_CASE` → `API_URL`
+1. [📁 Estructura del Proyecto](#-estructura-del-proyecto)
+2. [⚙️ Decisiones Técnicas](#-decisiones-técnicas)
+3. [🌿 Git Flow](#-git-flow)
+4. [📦 Conventional Commits](#-conventional-commits)
+5. [🧹 Estándares de Código](#-estándares-de-código)
 
 ---
