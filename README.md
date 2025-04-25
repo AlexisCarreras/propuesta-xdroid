@@ -141,16 +141,16 @@
 ## 🌿 Git Flow
 
 ```
-🌿 main                 → Rama principal de producción (siempre estable)
+🌿 main                    → Rama principal de producción (siempre estable)
 │
-├── 📥 develop          → Rama de integración o pre-producción (estable con últimos cambios)
+├── 📥 develop             → Rama de integración o pre-producción (estable con últimos cambios)
 │   │
-│   ├── ✨ feature/xxx  → Nuevas funcionalidades en desarrollo
-│   ├── 🐛 bug/xxx      → Correcciones de errores
-│   ├── 🧪 test/xxx     → Implementación o mejora de pruebas
-│   └── 🛠️ chore/xxx    → Refactor, configuración, ajustes menores
+│   ├── ✨ feature/{name}  → Nuevas funcionalidades en desarrollo
+│   ├── 🐛 bug/{name}      → Correcciones de errores
+│   ├── 🧪 test/{name}     → Implementación o mejora de pruebas
+│   └── 🛠️ chore/{name}    → Refactor, configuración, ajustes menores
 ```
-Ej. `feature/login-form`, `bugfix/fix-button-color
+Ej. `feature/login-form`, `bugfix/fix-button-color`, `test/config-coverage-ui`, `chore/config-msal`
 
 ---
 
